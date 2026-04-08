@@ -2,6 +2,10 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/balancer/frontend-monorepo)
 
+> **Note:** The Liquidity Bootstrapping Pool (LBP) creation flow (`/lbp/create`) has been
+> removed from this app. Existing LBPs remain viewable from the standard pool detail pages,
+> but new LBPs can no longer be created from this frontend.
+
 ## Getting Started
 
 _This project uses `pnpm`, if you haven't already installed it you can find the documentation here:
