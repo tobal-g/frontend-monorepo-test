@@ -6,6 +6,13 @@
 > removed from this app. Existing LBPs remain viewable from the standard pool detail pages,
 > but new LBPs can no longer be created from this frontend.
 
+> **Note:** Support for the **Fraxtal** network has been fully removed from this app as
+> a continuation of the BIP-906 sunset
+> ([forum link](https://forum.balancer.fi/t/bip-906-deprecation-of-polygon-zkevm-fraxtal-and-mode/6951)).
+> Fraxtal is no longer in `supportedNetworks`, its network config and chain icon have been
+> deleted, and per-chain maps (RPCs, slugs, colors, deprecation helpers, tests) no longer
+> reference it. Contracts remain deployed on-chain but are no longer accessible via this UI.
+
 ## Getting Started
 
 _This project uses `pnpm`, if you haven't already installed it you can find the documentation here:

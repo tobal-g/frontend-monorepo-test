@@ -406,7 +406,6 @@ export const CSP_ISSUE_POOL_IDS: Partial<Record<GqlChain, PoolId[]>> = {
     '0xd1af4974fcc995cf36ba40b189caa92964a9126d0000000000000000000000f1',
   ],
   [GqlChain.Mode]: [],
-  [GqlChain.Fraxtal]: [],
   [GqlChain.Sonic]: [],
   [GqlChain.Hyperevm]: [],
   [GqlChain.Plasma]: [],

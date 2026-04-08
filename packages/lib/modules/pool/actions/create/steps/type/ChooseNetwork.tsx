@@ -30,7 +30,7 @@ export function ChooseNetwork({ control }: { control: Control<PoolCreationForm> 
     .filter(
       network =>
         // balancer v3 pool creation not yet supported on these networks
-        ![GqlChain.Zkevm, GqlChain.Mode, GqlChain.Fraxtal, GqlChain.Polygon].includes(network)
+        ![GqlChain.Zkevm, GqlChain.Mode, GqlChain.Polygon].includes(network)
     )
     .map(network => ({
       value: network,

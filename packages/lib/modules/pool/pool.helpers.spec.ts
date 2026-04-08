@@ -319,14 +319,6 @@ describe('shouldBlockAddLiquidity', () => {
     expect(getPoolAddBlockedReason(pool)).toHaveLength(1)
   })
 
-  it('should block for Fraxtal pools', () => {
-    const pool = getApiPoolMock(usdcUsdtAaveBoosted)
-    pool.chain = GqlChain.Fraxtal
-
-    expect(shouldBlockAddLiquidity(pool)).toBe(true)
-    expect(getPoolAddBlockedReason(pool)).toHaveLength(1)
-  })
-
   it('should block for zkEvm pools', () => {
     const pool = getApiPoolMock(usdcUsdtAaveBoosted)
     pool.chain = GqlChain.Zkevm
