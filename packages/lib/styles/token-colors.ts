@@ -136,9 +136,6 @@ const tokenColors: Partial<Record<GqlChain, Record<Address, TokenColorDef>>> = {
   [GqlChain.Mode]: {
     '0x6b175474e89094c44da98b954eedeac495271d0f': { from: '#FF5733', to: '#FF5733' }, // DAI
   },
-  [GqlChain.Fraxtal]: {
-    '0x853d955acef822db058eb8505911ed77f175b99e': { from: '#FF5733', to: '#FF5733' }, // FRAX
-  },
   [GqlChain.Hyperevm]: {
     '0x5555555555555555555555555555555555555555': { from: '#DBFCF5', to: '#89F5DE' }, // WHYPE
     '0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb': { from: '#27A17C', to: '#42EBB8' }, // USDT0

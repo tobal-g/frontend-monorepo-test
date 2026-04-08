@@ -20,7 +20,6 @@ export const ProjectConfigBalancer: ProjectConfig = {
     GqlChain.Plasma,
     GqlChain.Polygon,
     GqlChain.Zkevm,
-    GqlChain.Fraxtal,
     GqlChain.Mode,
 
     // testnets only in dev mode

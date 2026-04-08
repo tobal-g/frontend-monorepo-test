@@ -11,7 +11,6 @@ import optimism from './optimism'
 import base from './base'
 import sepolia from './sepolia'
 import mode from './mode'
-import fraxtal from './fraxtal'
 import sonic from './sonic'
 import hyperevm from './hyperevm'
 import plasma from './plasma'
@@ -32,7 +31,6 @@ const networkConfigs: NetworkConfigs = {
   [GqlChain.Optimism]: optimism,
   [GqlChain.Sepolia]: sepolia,
   [GqlChain.Mode]: mode,
-  [GqlChain.Fraxtal]: fraxtal,
   [GqlChain.Fantom]: fantom,
   [GqlChain.Sonic]: sonic,
   [GqlChain.Hyperevm]: hyperevm,
