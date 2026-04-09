@@ -52,7 +52,6 @@ export const ProjectConfigBalancer: ProjectConfig = {
   links: {
     appLinks: [{ analyticsEvent: 'ClickNavVeBal', href: '/vebal', label: 'veBAL' }],
     ecosystemLinks: [
-      { label: 'Pool creator', href: '/create' },
       { label: 'Blog', href: 'https://medium.com/balancer-protocol' },
       { label: 'Docs', href: 'https://docs.balancer.fi/' },
       { label: 'Governance', href: 'https://vote.balancer.fi/#/' },

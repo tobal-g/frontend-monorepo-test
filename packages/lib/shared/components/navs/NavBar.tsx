@@ -101,17 +101,6 @@ function NavLinks({
           <Box as={motion.div} variants={fadeIn}>
             <Link
               as={NextLink}
-              color={linkColorFor('/create')}
-              href="/create"
-              prefetch
-              variant="nav"
-            >
-              Create
-            </Link>
-          </Box>
-          <Box as={motion.div} variants={fadeIn}>
-            <Link
-              as={NextLink}
               color={linkColorFor('/debug/pools')}
               href="/debug/pools"
               prefetch
