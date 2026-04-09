@@ -12,7 +12,6 @@ export enum AnalyticsEvent {
   ClickNavBuild = 'click: Build  primary nav',
   ClickNavPools = 'click: Pools primary nav',
   ClickNavPortfolio = 'click: Portfolio primary nav',
-  ClickNavSwap = 'click: Swap primary nav',
   ClickNavUtilitiesActivity = 'click: Nav utilities activity',
   ClickNavUtilitiesDarkmode = 'click: Nav utilities darkmode',
   ClickNavUtilitiesFeedback = 'click: Nav utilities feedback',

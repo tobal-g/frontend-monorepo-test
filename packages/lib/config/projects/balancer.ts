@@ -110,7 +110,6 @@ export const ProjectConfigBalancer: ProjectConfig = {
         title: 'Use Balancer protocol',
         links: [
           { label: 'Explore pools', href: '/pools' },
-          { label: 'Swap tokens', href: '/swap' },
           { label: 'View portfolio', href: '/portfolio' },
           { label: 'Get veBAL', href: '/vebal' },
         ],
