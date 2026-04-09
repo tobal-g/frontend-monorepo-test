@@ -2,6 +2,13 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/balancer/frontend-monorepo)
 
+> **Note:** The standalone Swap page (`/swap`) has been removed from the Balancer Dapp.
+> Users can no longer navigate to `app.balancer.fi/swap` and the "Swap" entry has been
+> removed from the primary navigation. Token swapping is no longer offered as a top-level
+> page in the Balancer Dapp; users who want to swap tokens through Balancer should use
+> the swap action available on individual pool detail pages, or use a third-party
+> aggregator (e.g. 1inch, Matcha, Paraswap, CoW Swap).
+
 > **Note:** The Liquidity Bootstrapping Pool (LBP) creation flow (`/lbp/create`) has been
 > removed from this app. Existing LBPs remain viewable from the standard pool detail pages,
 > but new LBPs can no longer be created from this frontend.
