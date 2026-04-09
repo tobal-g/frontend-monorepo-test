@@ -2,6 +2,14 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/balancer/frontend-monorepo)
 
+> **Note:** Gauge voting has been removed from the Balancer Dapp. The `/vebal/vote`
+> page no longer exists, and users can no longer cast gauge votes via the Balancer
+> Dapp. Gauge votes are still on-chain and can still be cast by interacting with the
+> gauge contracts directly or via third-party tooling. The "Vote on gauges" buttons
+> on the veBAL landing page (hero and footer sections) have been removed. Other
+> parts of the veBAL flow — the `/vebal` landing page, locking, extending, and
+> unlocking via `/vebal/manage` — remain available.
+
 > **Note:** The Balancer Dapp no longer has a pool creation interface. The standalone
 > Pool Creator page (`/create`) has been removed, the "Pool creator" entry has been
 > removed from the ecosystem links, the "Build" nav popover no longer offers a "Create

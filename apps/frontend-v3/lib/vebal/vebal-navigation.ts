@@ -1,10 +1,9 @@
 import { useSearchParams } from 'next/navigation'
 
 export const fromManage = 'manage'
-export const fromVote = 'vote'
 
 // Used to determine the redirect path after a vebal lock action
-export type VeBalSourcePage = 'manage' | 'vote'
+export type VeBalSourcePage = 'manage'
 export type VeBalAction = 'lock' | 'unlock' | 'extend'
 
 export function getVeBalManagePath(veBalAction: VeBalAction, sourcePage: VeBalSourcePage) {
@@ -20,9 +19,6 @@ export function useVeBalRedirectPath() {
   if (from === 'manage') {
     redirectPath = '/vebal/manage'
     returnLabel = 'Return to veBAL manage'
-  } else if (from === 'vote') {
-    redirectPath = '/vebal/vote'
-    returnLabel = 'Return to veBal voting'
   }
 
   return { redirectPath, returnLabel }
