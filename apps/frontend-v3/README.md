@@ -2,6 +2,14 @@
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/balancer/frontend-monorepo)
 
+> **Note:** The Balancer Dapp no longer has a pool creation interface. The standalone
+> Pool Creator page (`/create`) has been removed, the "Pool creator" entry has been
+> removed from the ecosystem links, the "Build" nav popover no longer offers a "Create
+> a pool" CTA, and the `BuildPromo` create-a-pool promo card has been removed from the
+> Pools page. Users wanting to create new Balancer pools should use the Balancer SDK
+> directly, the Balancer subgraph and contracts, or a dedicated third-party pool
+> creator tool.
+
 > **Note:** The standalone Swap page (`/swap`) has been removed from the Balancer Dapp.
 > Users can no longer navigate to `app.balancer.fi/swap` and the "Swap" entry has been
 > removed from the primary navigation. Token swapping is no longer offered as a top-level
