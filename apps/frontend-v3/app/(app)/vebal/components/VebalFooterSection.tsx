@@ -62,17 +62,6 @@ export function VebalFooterSection() {
               <Button as={NextLink} flex={1} href="/vebal/manage" size="lg" variant="gold">
                 Manage veBAL
               </Button>
-              <Button
-                as={NextLink}
-                bg="background.gold"
-                bgClip="text"
-                flex={1}
-                href="/vebal/vote"
-                size="lg"
-                variant="tertiary"
-              >
-                Vote on gauges
-              </Button>
             </Flex>
             <Link
               alignItems="center"
